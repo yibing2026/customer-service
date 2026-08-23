@@ -1,0 +1,44 @@
+# 环境变量
+.env
+.env.*
+!.env.example
+
+# 本地代理/开发环境说明
+CLAUDE.md
+AGENTS.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志
+*.log
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 运行时数据（SQLite 持久化）
+runtime/
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+
+# 其他本地文件
+.DS_Store
+Thumbs.db
